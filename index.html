@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawTracker Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PawTracker Pro</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#track">Track Pet</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Keep Your Pets Safe & Secure</h1>
+            <p>Real-time tracking for your beloved companions</p>
+            <button onclick="startTracking()">Start Tracking</button>
+        </section>
+
+        <section id="track" class="tracking-section">
+            <h2>Track Your Pet</h2>
+            <div class="map-container">
+                <div id="map">Map will be displayed here</div>
+                <div class="pet-info">
+                    <h3>Pet Details</h3>
+                    <div class="pet-status">
+                        <p>Name: <span id="petName">Max</span></p>
+                        <p>Status: <span id="status">Active</span></p>
+                        <p>Last Updated: <span id="lastUpdate">2 min ago</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PawTracker Pro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
